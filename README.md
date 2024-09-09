@@ -41,7 +41,7 @@
             <code>npm run dev</code>
         </p>
     </ul>
-    <li><p><strong>StarJava-Anwendung ausführen:</strong></p></li>
+    <li><p><strong>Java-Anwendung ausführen:</strong></p></li>
     <ul>
         <li>Stellen Sie sicher, dass Sie die Java-Anwendung starten, um die Backend-API verfügbar zu machen.</li>
     </ul>
