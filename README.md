@@ -37,6 +37,7 @@
             <code>npm install</code>
         </p>
     </ul>
+    <li><p><strong>Erstellen Sie eine Datei <code>.env</code> im Verzeichnis <code>client</code> nach dem Beispiel <code>.env.example</code></strong></p></li>
     <li><p><strong>Starten Sie die Anwendung im Entwicklungsmodus:</strong></p></li>
     <ul>
         <li>Verwenden Sie den folgenden Befehl, um die Anwendung zu starten:</li>
@@ -46,6 +47,8 @@
     </ul>
     <li><p><strong>Java-Anwendung ausführen:</strong></p></li>
     <ul>
+      <li>Navigieren Sie zu <code>src/main/resources</code> und öffnen Sie die Datei <code>application.properties</code>.</li>
+        <li>Konfigurieren Sie die Ports und die CORS-Policy, um sicherzustellen, dass das Frontend mit dem Backend kommunizieren kann.</li>
         <li>Stellen Sie sicher, dass Sie die Java-Anwendung starten, um die Backend-API verfügbar zu machen.</li>
     </ul>
 </ol>
