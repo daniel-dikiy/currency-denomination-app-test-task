@@ -12,6 +12,9 @@
     <strong>React + TypeScript</strong>
   </li>
   <li>
+    <strong>Vite</strong>
+  </li>
+  <li>
     <strong>TailwindCSS</strong>
   </li>
   <li>
