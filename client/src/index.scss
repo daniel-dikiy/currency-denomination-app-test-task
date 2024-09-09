@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+header {
+  @apply flex h-16 justify-between;
+}
+
+body {
+  @apply bg-gradient-to-br from-slate-50 to-slate-200;
+}
+
+img {
+  @apply pointer-events-none h-8 w-8 select-none object-contain;
+}
+
+input:focus {
+  @apply outline-none;
+}
