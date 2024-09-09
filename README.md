@@ -29,7 +29,7 @@
 <ol>
     <li><p><strong>Installieren Sie die erforderlichen npm-Pakete:</strong></p></li>
     <ul>
-        <li>Wechseln Sie in das Verzeichnis client und führen Sie den folgenden Befehl aus:</li>
+        <li>Wechseln Sie in das Verzeichnis <code>client</code> und führen Sie den folgenden Befehl aus:</li>
         <p>
             <code>npm install</code>
         </p>
