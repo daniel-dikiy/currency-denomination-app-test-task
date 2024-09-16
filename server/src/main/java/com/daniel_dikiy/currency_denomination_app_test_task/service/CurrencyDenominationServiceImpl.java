@@ -35,10 +35,10 @@ public class CurrencyDenominationServiceImpl implements CurrencyDenominationServ
         for (int i = 0; i < denominationNames.length; i++) {
 
             CurrencyDenomination denomination = new CurrencyDenomination();
-            double denominationValue = Double.parseDouble(denominationNames[i].replace(",", ".")) * 100;
+            int denominationValue = (int) (Double.parseDouble(denominationNames[i].replace(",", ".")) * 100);
 
             denomination.setName(denominationNames[i]);
-            denomination.setValue((int) denominationValue);
+            denomination.setValue(denominationValue);
             currencyDenominations.add(denomination);
         }
 
